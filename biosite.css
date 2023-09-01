@@ -1,4 +1,4 @@
-/* Color Theme Swatches in Hex */
+
 /*color1-hex { color: #144587; }
 color2-hex { color: #59B7FF; }
 color3-hex{ color: #358FD4; }
@@ -21,6 +21,11 @@ h2 {
     font-weight: 300;
 }
 
+hr {
+    color: #875407;
+}
+
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -31,10 +36,9 @@ p {
     margin-left: 2%;
     margin-right: 2%;
     padding: 10px;
+    
 
 }
-
-
 
 .column {
     float: left;
@@ -42,11 +46,32 @@ p {
     padding: 15px;
  }
 
- .indcolumn {
+
+
+ .column12 {
     float: left;
     width: 65%;
     padding: 15px;
  }
+
+ .column3 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+ }
+
+ .column1 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+ }
+
+ .column23 {
+    float: left;
+    width: 65%;
+    padding: 15px;
+ }
+
 .row {
     padding-bottom: 10px;
 }
@@ -90,7 +115,9 @@ li {
     color: white;
 }
 
-
+figcaption {
+    font-style: italic;
+}
 
 
 
