@@ -1,5 +1,6 @@
 
-/*color1-hex { color: #144587; }
+/*Color Swatches for reference"
+color1-hex { color: #144587; }
 color2-hex { color: #59B7FF; }
 color3-hex{ color: #358FD4; }
 color4-hex { color: #875407; }
@@ -21,6 +22,9 @@ h2 {
     font-weight: 300;
 }
 
+h2 {
+    font-weight: 250;
+}
 hr {
     color: #875407;
 }
@@ -32,11 +36,8 @@ p {
 
 #container {
     position: relative;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
     padding: 10px;
-    
+    background-image: url('./images/background2.jpg');  
 
 }
 
@@ -51,13 +52,11 @@ p {
  .column12 {
     float: left;
     width: 65%;
-    padding: 15px;
  }
 
  .column3 {
     float: left;
-    width: 30%;
-    padding: 15px;
+    width: 35%;
  }
 
  .column1 {
@@ -72,7 +71,12 @@ p {
     padding: 15px;
  }
 
- .column25 {
+ .column70 {
+    float: left;
+    width: 70%;
+    padding: 15px;
+ }
+ .column20 {
     float: left;
     width: 20%;
     padding: 15px;
@@ -87,23 +91,43 @@ p {
     clear: both;
  }
 
-#navbar {
-    overflow: hidden;
-    background-color: #358FD4;
-    border-bottom: solid;
-    
-    border-color: #D49435;
-    border-width: 15px;
-}
 
-ul {
+ ul {
     list-style-type: circle;
 }
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
+    margin-bottom: 10px;
 }
+
+#landing li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#landing a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+#contact {
+    text-align: center;
+    font-weight: 100px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #358FD4;
+    border-bottom: solid;
+    
+    border-color: #D49435;
+    border-width: 10px;
+}
+
+
 #navbar a {
     float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -116,22 +140,12 @@ li {
 
 }
 
-#navbar a:hover {
-    background-color: #5987FF;
-    color: white;
-}
-
-figcaption {
-    font-style: italic;
-}
-
-
-
 footer {
+    overflow: hidden;
     background-color: #145587;
-    position:absolute;
     bottom: 0;
-    width: 100%;
+    border: #875407;
+    border-radius: 2px;
 }
 footer p {
     color: white;
@@ -151,3 +165,16 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+#navbar a:hover {
+    background-color: #5987FF;
+    color: white;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+
+
