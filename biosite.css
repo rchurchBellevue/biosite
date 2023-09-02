@@ -72,6 +72,12 @@ p {
     padding: 15px;
  }
 
+ .column25 {
+    float: left;
+    width: 20%;
+    padding: 15px;
+ }
+
 .row {
     padding-bottom: 10px;
 }
