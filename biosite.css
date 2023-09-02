@@ -43,6 +43,8 @@ p {
 
 #container img {
     object-fit: contain;
+    max-width: 100%;     
+    max-height: auto;
 }
 
 .column {
@@ -72,6 +74,11 @@ p {
  .column70 {
     float: left;
     width: 70%;
+    padding: 15px;
+ }
+ .column20 {
+    float: left;
+    width: 20%;
     padding: 15px;
  }
  .column45 {
