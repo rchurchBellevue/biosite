@@ -58,11 +58,6 @@ p {
     width: 35%;
  }
 
- .column1 {
-    float: left;
-    width: 30%;
-    padding: 15px;
- }
 
  .column23 {
     float: left;
@@ -136,7 +131,7 @@ li {
 
 #contact {
     text-align: center;
-    font-weight: 100px;
+    font-weight: 100;
 }
 #navbar {
     overflow: hidden;
