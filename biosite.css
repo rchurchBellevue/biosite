@@ -41,9 +41,9 @@ p {
 
 }
 
-#container figure {
-    max-width: 100%
-    max-height: auto;
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .column {
@@ -73,12 +73,13 @@ p {
  .column70 {
     float: left;
     width: 70%;
-    padding: 15px;
+    padding: 5px;
  }
  .column20 {
     float: left;
-    width: 20%;
-    padding: 15px;
+    object-fit:fill;
+    width: 28%;
+    padding: 5px;    
  }
  .column45 {
     float: left;
@@ -138,6 +139,7 @@ li {
     font-weight: bold;
     
 }
+
 
 #contact {
     text-align: center;
