@@ -41,9 +41,8 @@ p {
 
 }
 
-#container img {
-    object-fit: contain;
-    max-width: 100%;     
+#container figure {
+    max-width: 100%
     max-height: auto;
 }
 
