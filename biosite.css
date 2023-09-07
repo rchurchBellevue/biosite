@@ -10,7 +10,7 @@ color5-hex { color: #D49435; }
 header {
     background-color: #145587;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -33,23 +33,37 @@ hr {
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+blockquote {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
 
 #container {
     position: relative;
-    padding: 10px;
+    padding: 5px;
     background-image: url('./images/background2.jpg');  
 
 }
 
+.portrait {
+    width: auto;
+}
+
+
 img {
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+#apaimg {
+    height: 300px;
+    width: 200px;
 }
 
 .column {
     float: left;
     width: 30%;
-    padding: 15px;
+    padding: 10px;
  }
 
 
@@ -70,15 +84,18 @@ img {
     padding: 15px;
  }
 
- .column70 {
+ .landingrow {
+    display: flex;
+ }
+
+ .landingcolumna {
     float: left;
     width: 70%;
     padding: 5px;
  }
- .column20 {
+ .landingcolumnb {
     float: left;
-    object-fit:fill;
-    width: 28%;
+    width: 27%;
     padding: 5px;    
  }
  .column45 {
@@ -88,7 +105,7 @@ img {
  }
 
 .row {
-    padding-bottom: 10px;
+    display:table;
 }
 .row::after {
     content: "";
