@@ -20,6 +20,8 @@ h1 {
 
 h2 {
     font-weight: 300;
+    text-emphasis:bold ;
+    color:#145587;
 }
 
 h2 {
@@ -66,6 +68,12 @@ img {
     padding: 10px;
  }
 
+ .column23 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+ }
+
  .column25 {
     float: left;
     width: 25%;
@@ -96,20 +104,7 @@ img {
     padding: 15px;
  }
 
- .landingrow {
-    display: flex;
- }
-
- .landingcolumna {
-    float: left;
-    width: 73%;
-    padding: 5px;
- }
- .landingcolumnb {
-    float: right;
-    width: 24%;
-    padding: 5px;    
- }
+ 
  .column45 {
     float: left;
     width: 45%;
@@ -151,17 +146,19 @@ img {
     list-style-type: circle;
 }
 
-li {
+.item2 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
+    font-weight: 150;
     margin-bottom: 10px;
 }
 
-#landing li {
+li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
-    margin-bottom: 20px;
+    font-weight: 150;
+    margin-bottom: 10px;
 }
+
+
 
 #landing a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -206,13 +203,14 @@ footer {
 footer p {
     color: white;
     font-weight: 400;
-    text-align: right;
+    text-align: left;
     padding-right: 10px;
     font-style: italic;
     
 }
 
 footer a {
+    float: right;
     text-decoration: none;
     color: white;
 
@@ -233,4 +231,28 @@ figcaption {
 }
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-image: url('./images/background2.jpg');  
+  }
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item3 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.item4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
 
