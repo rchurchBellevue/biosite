@@ -242,19 +242,19 @@ figcaption {
     background-image: url('./images/background2.jpg');  
   }
 
-.item1 {
+.indexitem1 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.item2 {
+.indexitem2 {
   grid-column-start: 2;
   grid-column-end: 4;
 }
-.item3 {
+.indexitem3 {
   grid-row-start: 2;
   grid-row-end: 4;
 }
-.item4 {
+.indexitem4 {
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -277,4 +277,8 @@ figcaption {
     grid-column-end: 4;
 }
 
+.puzzleitem1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 
