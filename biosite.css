@@ -57,6 +57,9 @@ img {
     height: auto;
 }
 
+
+
+
 #tattoo {
     height: 300px;
     width: 200px;
@@ -256,12 +259,22 @@ figcaption {
   grid-row-end: 3;
 }
 
-.aboutitem1, .aboutitem3, .aboutitem5 {
+.aboutitem1, .aboutitem3 {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+.aboutitem2, .aboutitem4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
-.aboutitem1, .aboutitem3, .aboutitem5 {
+.collegeitem7{
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.collegeitem10{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
